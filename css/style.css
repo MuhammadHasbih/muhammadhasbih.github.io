@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lucida Grande";
+}
+
+header {
+    background-image: url(background-header.jpg);
+    background-size: cover;
+    height: 90px;
+}
+
+.header-logo {
+    color: white;
+    font-size: 30px;
+    padding: 20px 40px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-list a {
+    transition: 0.5s;
+}
+
+.header-list a:hover {
+    background-color: rgba(30, 175, 219, 0.493);
+}
+
+.header-list a {
+    padding: 33px 20px;
+    float: left;
+    color: white;
+    display: block;
+}
+
+footer {
+    height: 120px;
+    background-color: rgba(34, 49, 52, 0.9);
+    padding: 40px;
+    background-size: fixed;
+}
+
+.footer-list {
+    transition: 0.5s;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.footer-list a {
+    padding: 20px;
+    float: left;
+    color: white;
+}
+
+.top-wrapper {
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 180px 0 100px 0;
+    background-image: url(covid.jpg);
+}
+
+.top-wrapper h1 {
+    opacity: 0.9;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.top-wrapper p {
+    opacity: 1.0;
+    margin-bottom: 3px;
+    font-size: 30px;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.gejala-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.gejala {
+    float: left;
+    width: 25%;
+}
+
+.gejala-icon {
+    position: relative;
+}
+
+.gejala-icon h3 {
+    margin-top: 20px;
+    display: inline-block;
+    color: #b3aeb5;
+}
+
+.txt-contents {
+    width: 65%;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #b3aeb5;
+    letter-spacing: 2px;
+}
+
+.gejalas h3 {
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #b3aeb5;
+}
+
+.email {
+    background-color: #239b76;
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0px 7px #808080;
+}
+
+.facebook {
+    background-color: #3b5998;
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0px 7px #808080;
+}
+
+.twitter {
+    background-color: #55acee;
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0px 7px #808080;
+}
+
+.lapor-wrapper {
+    text-align: center;
+    padding-bottom: 80px;
+    color: white;
+}
+
+.email:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.facebook:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.twitter:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
